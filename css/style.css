@@ -6,3 +6,18 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+#retro h2:first-child {
+  color: green;
+  text-decoration: underline;
+}
+
+#retro p:nth-child(2) {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer p {
+  display: inline;
+  font-weight: bold;
+  font-size: small;
+}
